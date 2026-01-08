@@ -6,7 +6,6 @@ import pl.edu.vistula.java_projecttask2.product.domain.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    // This looks empty, but JpaRepository provides all the SQL magic automatically.
 }
 
 

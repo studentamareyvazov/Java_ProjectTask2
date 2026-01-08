@@ -54,11 +54,9 @@ Creates a new product and saves it to the H2 database with a unique ID.
 <img width="1821" height="647" alt="Screenshot 2026-01-08 193553" src="https://github.com/user-attachments/assets/0ddf8915-6fdb-4a99-91b3-f46d699cf9bd" />
 <img width="1905" height="698" alt="Screenshot 2026-01-08 193616" src="https://github.com/user-attachments/assets/7c2ada8d-a61f-4f0e-ba15-6c8fec467d86" />
 Retrieves product details from the database or returns a 404 error if the ID is not found.
-<img width="1904" height="886" alt="Screenshot 2026-01-08 193647" src="https://github.com/user-attachments/assets/3bb7d5bf-75a8-451e-a3ce-2123fb21c347" />
-<img width="1901" height="742" alt="Screenshot 2026-01-08 193656" src="https://github.com/user-attachments/assets/f6e07e4f-7935-448b-a39f-60acfe56c33f" />
+<img width="1852" height="903" alt="image" src="https://github.com/user-attachments/assets/e26e4d5a-f272-4e58-a55e-ea43a078921f" />
+<img width="1911" height="720" alt="image" src="https://github.com/user-attachments/assets/5268b5fb-07d5-4a97-9e84-96f00ab643ad" />
 Updates the name of an existing product and returns the modified data as shown in the 200 OK response.
-
-
 <img width="1886" height="707" alt="Screenshot 2026-01-08 193717" src="https://github.com/user-attachments/assets/e9de5f1b-3223-42d7-a8e9-33de3897f7db" />
 <img width="1841" height="900" alt="Screenshot 2026-01-08 193739" src="https://github.com/user-attachments/assets/0fbc1ba2-64e1-42bb-a870-585e918d0eab" />
 Permanently removes the selected product from the database and returns a 204 No Content status.

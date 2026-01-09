@@ -62,5 +62,5 @@ Updates the name of an existing product and returns the modified data as shown i
 Permanently removes the selected product from the database and returns a 204 No Content status.
 <img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/a872bd94-df88-40ea-a844-6bd7d88c6332" />
 This method retrieves the complete list of all products from the H2 database as a JSON array.
-
+To clone the project: https://github.com/studentamareyvazov/Java_ProjectTask2.git
 

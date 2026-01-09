@@ -60,4 +60,7 @@ Updates the name of an existing product and returns the modified data as shown i
 <img width="1886" height="707" alt="Screenshot 2026-01-08 193717" src="https://github.com/user-attachments/assets/e9de5f1b-3223-42d7-a8e9-33de3897f7db" />
 <img width="1841" height="900" alt="Screenshot 2026-01-08 193739" src="https://github.com/user-attachments/assets/0fbc1ba2-64e1-42bb-a870-585e918d0eab" />
 Permanently removes the selected product from the database and returns a 204 No Content status.
+<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/a872bd94-df88-40ea-a844-6bd7d88c6332" />
+This method retrieves the complete list of all products from the H2 database as a JSON array.
+
 

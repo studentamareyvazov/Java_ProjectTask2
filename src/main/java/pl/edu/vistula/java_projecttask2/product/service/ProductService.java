@@ -1,5 +1,6 @@
 package pl.edu.vistula.java_projecttask2.product.service;
-
+import java.util.List;
+import java.util.stream.Collectors;
 import org.springframework.stereotype.Service;
 import pl.edu.vistula.java_projecttask2.product.api.request.ProductRequest;
 import pl.edu.vistula.java_projecttask2.product.api.response.ProductResponse;
@@ -46,5 +47,10 @@ public class ProductService {
                 .orElseThrow(ProductExceptionSupplier.productNotFound(id));
 
         productRepository.delete(product);
+    }
+    public List<ProductResponse> findAll() {
+        return productRepository.findAll().stream()
+                .map(productMapper::toProductResponse)
+                .collect(Collectors.toList());
     }
 }
